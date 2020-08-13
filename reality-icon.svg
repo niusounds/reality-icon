@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="reality" gradientTransform="rotate(29.36)">
+      <stop offset="0%" style="stop-color: #2DBBFC; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #F926C6; stop-opacity: 1" />
+    </linearGradient>
+    <clipPath id="profilePath">
+      <ellipse cx="100" cy="100" rx="90" ry="90" />
+    </clipPath>
+  </defs>
+  <ellipse cx="100" cy="100" rx="100" ry="100" fill="url(#reality)" />
+  <image href="original.png" width="200" height="200" clip-path="url(#profilePath)"/>
+</svg>
