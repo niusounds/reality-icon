@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <svg viewBox="0 0 200 200" width="400" id="icon">
+        <defs>
+            <linearGradient id="reality" x1="200" y1="184" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF25C5" />
+                <stop offset="0.554804" stop-color="#4DC0EB" />
+            </linearGradient>
+            <clipPath id="profilePath">
+                <ellipse cx="100" cy="100" rx="85" ry="85" />
+            </clipPath>
+        </defs>
+        <ellipse cx="100" cy="100" rx="100" ry="100" fill="url(#reality)" />
+        <image id="icon-image" href="" width="200" height="200" clip-path="url(#profilePath)" />
+    </svg>
+    <br>
+    <input type="file" name="file" id="file" accept="image/png, image/jpeg">
+    <script src="script.js"></script>
+</body>
+
+</html>
